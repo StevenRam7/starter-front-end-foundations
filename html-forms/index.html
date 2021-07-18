@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Front-end foundations: HTML forms</title>
+    <title>HTML forms practice</title>
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
       rel="stylesheet"
@@ -13,6 +13,22 @@
   </head>
 
   <body>
-    <main></main>
+    <main>
+      <form>
+        <label for="name">Name:</label>
+        <input id="name" type="text" name="name" placeholder="Enter your name"/>
+      </form>
+      <form>
+        <label for="email">Email:</label>
+        <input id="email" type="text" name="name" placeholder="Enter your email address"/>
+      </form>
+      <form>
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+      </form>
+      <form>
+          <button type="sumbit">Submit</button>
+        </form>
+    </main>
   </body>
 </html>
